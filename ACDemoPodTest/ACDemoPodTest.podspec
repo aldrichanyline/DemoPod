@@ -31,3 +31,4 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ACDemoPodTest/ACDemoPodTest/Classes/**/*'
+end

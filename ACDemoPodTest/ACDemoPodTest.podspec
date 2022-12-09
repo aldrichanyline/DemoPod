@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'ACDemoPodTest'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ACDemoPodTest. It is a short example of an empty pod.'
+  s.summary          = 'ACDemoPod Test is a short example of an empty pod. Used to test dependencies prior to pushing to deployment.'
+  s.swift_versions   = [4.0]
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,11 +25,11 @@ TODO: Add long description of the pod here.
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/aldrichanyline/ACDemoPodTest'
+  s.homepage         = 'https://github.com/aldrichanyline/DemoPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'ACDemoPodTest/LICENSE' }
   s.author           = { 'aldrichanyline' => 'aldrich@anyline.com' }
-  s.source           = { :git => 'https://github.com/aldrichanyline/ACDemoPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/aldrichanyline/DemoPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

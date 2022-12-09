@@ -1,0 +1,16 @@
+PODS:
+  - ACDemoPodTest (0.1.0)
+
+DEPENDENCIES:
+  - ACDemoPodTest (~> 0.1.0)
+
+SPEC REPOS:
+  trunk:
+    - ACDemoPodTest
+
+SPEC CHECKSUMS:
+  ACDemoPodTest: 61fe8a042b70227f226168997a10384e08ea755b
+
+PODFILE CHECKSUM: e5e83dc902ec74ad5a5cfeea2268cea2b9a11102
+
+COCOAPODS: 1.11.3

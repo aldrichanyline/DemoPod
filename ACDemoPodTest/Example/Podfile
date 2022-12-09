@@ -1,6 +1,9 @@
+platform :ios, '11.0'
+
 use_frameworks!
+
 target 'ACDemoPodTest_Tests' do
-  pod 'ACDemoPodTest', :path => '../'
+  pod 'ACDemoPodTest', '~> 0.1.0'
   
   
 end

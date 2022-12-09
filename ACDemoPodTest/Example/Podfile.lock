@@ -1,5 +1,5 @@
 PODS:
-  - ACDemoPodTest (0.1.0)
+  - ACDemoPodTest (0.1.1)
 
 DEPENDENCIES:
   - ACDemoPodTest (~> 0.1.0)
@@ -9,7 +9,7 @@ SPEC REPOS:
     - ACDemoPodTest
 
 SPEC CHECKSUMS:
-  ACDemoPodTest: 61fe8a042b70227f226168997a10384e08ea755b
+  ACDemoPodTest: fe5d1ed7dc95b1a98435876975b097588d0ff8ec
 
 PODFILE CHECKSUM: e5e83dc902ec74ad5a5cfeea2268cea2b9a11102
 

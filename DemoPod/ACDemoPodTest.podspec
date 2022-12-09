@@ -7,9 +7,10 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DemoPod'
+  s.name             = 'ACDemoPodTest'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DemoPod.'
+  s.summary          = 'This pod does not do anything. It is only used for testing dependencies'
+  s.swift_versions   = [4.0]
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This pod is only used to test to see that dependencies work before pushing the production library out.
                        DESC
 
   s.homepage         = 'https://github.com/aldrichanyline/DemoPod'

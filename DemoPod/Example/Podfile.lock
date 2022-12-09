@@ -1,0 +1,16 @@
+PODS:
+  - DemoPod (0.1.0)
+
+DEPENDENCIES:
+  - DemoPod (from `../`)
+
+EXTERNAL SOURCES:
+  DemoPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DemoPod: 0b61b631a1f9b4363ba1cfc20271f3cf27e4fd7a
+
+PODFILE CHECKSUM: d71bea1550f6b6e045058f990a1890e02b55e9aa
+
+COCOAPODS: 1.11.3

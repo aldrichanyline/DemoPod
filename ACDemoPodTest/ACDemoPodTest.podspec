@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ACDemoPodTest'
-  s.version          = '0.2.0-preview.2'
+  s.version          = '0.2.0'
   s.summary          = 'ACDemoPod Test is a short example of an empty pod. Used to test dependencies prior to pushing to deployment.'
   s.swift_versions   = [4.0]
 
